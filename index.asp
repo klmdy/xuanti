@@ -10,6 +10,8 @@
 <title>欢迎使用毕业选题与论文管理系统</title>
 </head>
 <script>
+
+
        var devies = navigator.userAgent.toLowerCase();
            var ipad = devies.match(/ipad/i) == "ipad";
            var iphone = devies.match(/iphone os/i) == "iphone os";
