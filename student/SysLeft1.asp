@@ -181,7 +181,7 @@ function expandIt(el) {
       <a class="nav1" href="task_list1.asp"><div class="nav3">开始选题&#12288;&#12288;&#12288;&#12288;&#12288;</div></a>
     </li>
     <li>
-      <a class="nav1" href="../fileload/FileUploadStudent1.asp"><div class="nav3">上传文档&#12288;&#12288;&#12288;&#12288;&#12288;</div></a>
+      <a class="nav1" href="../fileload/FileUploadStudent.asp"><div class="nav3">上传文档&#12288;&#12288;&#12288;&#12288;&#12288;</div></a>
     </li>
     <li>
       <a class="nav1" href="file_download1.asp" onClick='changeAdminFlag("文档下载")'><div class="nav3">文档下载&#12288;&#12288;&#12288;&#12288;&#12288;</div></a>

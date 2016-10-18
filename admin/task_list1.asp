@@ -147,7 +147,7 @@
 			wh = wh&" and ( Sel_con like '%"&keyword&"%' or Sel_name like '%"&keyword&"%' ) "
 		end if
 		set rsobj=server.CreateObject("adodb.recordset")
-		sql = "select * from select_cursor sel,teacher_inf tea,speciality sp where sp.sp_id=sel.sp_id and sel.check = true and sel.Tea_id=tea.Tea_id "&wh&" order by Sel_id asc"
+		sql = "select * from select_cursor sel,teacher_inf tea,speciality sp where sp.sp_id=sel.sp_id and sel.Tea_id=tea.Tea_id "&wh&" order by Sel_id asc"
 		rsobj.open sql,conn ,1,1
 		page=cint(request.QueryString("txtpage"))
 		rsobj.pagesize=30 '·ÖÒ³Êä³ö Ìõ/Ò³
