@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>编辑服务器上的word文档</title>
+</head>
+<script type="text/javascript">function EditWord(url)
+{var path =window.location.href;path =path.substring(0, path.lastIndexOf('/')+1);
+//alert(path);path=path+url;//alert(path);var openDocObj;try{openDocObj = new ActiveXObject("SharePoint.OpenDocuments.3");//Office 2007}catch(e){try{openDocObj = new ActiveXObject("SharePoint.OpenDocuments.2"); //Office 2003}catch(e){try{openDocObj = new ActiveXObject("SharePoint.OpenDocuments.1"); //Office XP}catch(e){openDocObj=null;}}}if(openDocObj){openDocObj.EditDocument(path);}else{window.open(path);}}
+
+</script><body><a href='#' onclick="EditWord('1.doc')">ceshi</a>
+
+</body>
+
+</html>

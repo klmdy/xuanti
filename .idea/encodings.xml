@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/admin/CheckAdmin.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/admin/SysLeft.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/admin/SysLeft1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/admin/student_list.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/index.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/index1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/login/index.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/index.aspx" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/index1.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/index2.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/login.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/login1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/login/zhuce1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/student/CheckAdmin.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/student/SysCome.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/student/SysLeft.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/student/SysLeft1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/student/task_add.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/student/task_list.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/student/task_mysel.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/CheckAdmin.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/teacher/SysCome.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/SysCome1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/SysHead.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/teacher/SysLeft.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/SysLeft1.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/teacher/SysTop.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/teacher/addfile.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/bnuzitc1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/document_upload1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/file_add_db.asp" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/teacher/index.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/teacher/log.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/teacher/log_excel.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/teacher/msg_add.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/msg_add1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/msg_list.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/msg_list1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/student_add.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/student_list.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/student_list1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/task_add.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/task_mysel.asp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/teacher/task_mysel1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/task_tadd.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/task_tadd1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/task_view.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/task_view1.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/teacher_add.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/teacher_edit.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/teacher_list.asp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/teacher/teacher_list1.asp" charset="GB2312" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
