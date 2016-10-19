@@ -65,9 +65,9 @@
     <td>
 	<a href='student_add.asp?ID=<%=rsobj("stu.ID")%>' onClick='changeAdminFlag("查看学生信息")'><font color='#330099'><%=rsobj("St_name")%></font></a>
 	</td>
-	 <td align="center"><a href="../fileload/FileUploadTeacher.asp?ID=<%=rsobj("selt.St_number")%>" target="mainFrame">上传该生文档</a></td>
-	 <td align="center"><a href="file_download.asp?ID=<%=rsobj("selt.St_number")%>" target="mainFrame">下载该生文档</a></td>
-	 <td align="center"><a href="msg_add1.asp?ID=<%=rsobj("selt.St_number")%>" target="mainFrame">给他留言</a></td>
+	 <td align="center"><a href="../fileload/FileUploadTeacher.asp?ID=<%=rsobj("selt.St_number")%>">上传该生文档</a></td>
+	 <td align="center"><a href="file_download.asp?ID=<%=rsobj("selt.St_number")%>">下载该生文档</a></td>
+	 <td align="center"><a href="msg_add1.asp?ID=<%=rsobj("selt.St_number")%>">给他留言</a></td>
     <td align="left"><%=rsobj("Sel_name")%></td>
        
     

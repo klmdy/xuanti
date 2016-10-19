@@ -119,7 +119,7 @@ body
         <div align="left">
             <input name="submitSaveEdit" type="submit" class="button"  id="submitSaveEdit3" value=" 提 交 " style="width: 25%;" />
             <input name="submitSaveEdit2" type="reset" class="button"  id="submitSaveEdit22" value=" 重 置 " style=" width: 25%;" />
-            <input name="back" type="button" class="button" value="返 回" style="width:25%;" onclick="selectSysLeft()"/>
+            <input name="back" type="button" class="button" value="返 回" style="width:25%;" onclick="javascript:window.location.href='./document_upload1.asp'"/>
         </div>
 
         </td>
@@ -137,24 +137,6 @@ body
 
 </body>
 
-<script>
-function selectSysLeft() {
-    var devies = navigator.userAgent.toLowerCase();
-             var ipad = devies.match(/ipad/i) == "ipad";
-             var iphone = devies.match(/iphone os/i) == "iphone os";
-             var midp = devies.match(/midp/i) == "midp";
-             var uc7 = devies.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
-             var uc = devies.match(/ucweb/i) == "ucweb";
-             var android = devies.match(/android/i) == "android";
-             var wince = devies.match(/windows ce/i) == "windows ce";
-             var winphone = devies.match(/windows mobile/i) == "windows mobile";
-             if (ipad || iphone || midp || uc7 || uc || android || wince || winphone) {
-                 window.location.href="./SysLeft1.asp";
-             } else {
-                 window.location.href="./bnuzitc.asp";
-             }
-}
-</script>
 </html>
 
 <%
