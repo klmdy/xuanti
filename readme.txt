@@ -1,1 +1,1 @@
-管理员  ceticn1    ybx123
+管理员  ceticn1
