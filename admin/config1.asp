@@ -17,7 +17,22 @@
     <td height="24" nowrap><font color="#FFFFFF"><img src="../Images/Explain.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;<strong>网站配置：修改网站标题</strong></font></td>
   </tr>
   <tr>
-    <td height="203" width=100% align="center" nowrap  bgcolor="#EBF2F9"><h3>当前标题：<%=session("sysname")%></h3>
+    <td height="203" width=100% align="center" nowrap  bgcolor="#EBF2F9"><h3>当前标题：
+    <%    
+			set rs=server.createobject("adodb.recordset")    
+			sql="select sysname from config group by sysname"    
+			rs.open sql,Conn,1,3
+		%>
+      <%do while not rs.eof%>
+      <%=rs("sysname")%>
+      <%
+				rs.movenext
+				loop
+				rs.close
+				set rs = nothing
+			%>
+				
+			</h3>
       <form id="form1" name="form1" method="post" action="?Action=SaveEdit">
         <strong>网站标题：</strong>
         <input name="sysname" type="text" id="sysname" style="width: 50%; "  value="<%=session("sysname")%>" />　
@@ -42,6 +57,6 @@
 		session("sysname")=request("sysname")
 		rs.close
 		set rs = nothing
-		response.Redirect("syscome.asp")
+		response.Redirect("SysLeft1.asp")
 	end if
 %>

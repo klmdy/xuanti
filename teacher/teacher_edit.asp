@@ -81,19 +81,19 @@
               </div></td>
             </tr>
             <tr>
-              <td height="20" align="right"><font color="#FF0000">教研室：</font></td>
+              <td height="20" align="right"><font color="#FF0000">所在院系：</font></td>
               <td><div align="left">
 			  
                   <select name="res_id" id="res_id" >
                     <%    
 				set rs1=server.createobject("adodb.recordset")    
-				sql="select * from res_table "    
+				sql="select * from department "
 				rs1.open sql,Conn,1,3
 			%>
                     <%do while not rs1.eof%>
-                    <option value="<%=rs1("res_id")%>"
-					<% if rs1("res_id")=rs("res_id") then response.Write("selected='selected'") end if%>
-					><%=rs1("res_name")%></option>
+                    <option value="<%=rs1("D_no")%>"
+					<% if rs1("D_no")=rs("res_id") then response.Write("selected='selected'") end if%>
+					><%=rs1("D_name")%></option>
                     <%
 				rs1.movenext
 				loop

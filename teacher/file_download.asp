@@ -5,6 +5,7 @@
 <HEAD>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8" />
 <META NAME="Keywords" CONTENT="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
 <META NAME="Description" CONTENT="" />
 <TITLE>文件管理</TITLE>
 <link rel="stylesheet" href="../js/CssAdmin.css">
@@ -125,7 +126,7 @@ Sub Main()
      <td >
 	<p align="center">
 	<%		address = request.ServerVariables("HTTP_REFERER")%>
-			<input type="button" name="submitSaveEdit3" value="返回上一页" class="button" onclick="javascript:window.location.href='<%=address%>';" style="WIDTH: 85; float:center; height:18"> 
+
          </td>
         </tr>
 
@@ -135,10 +136,10 @@ Sub Main()
 <table Width="100%" border="0" align=center cellpadding="3" cellspacing="1" bgcolor="#6298E1">
   <tr bgcolor="#8DB5E9"> 
     <td Width="6%" height=23 align="center"><font color="#FFFFFF"><strong>类型</strong></font></td>
-    <td Width="51%" align="center"><font color="#FFFFFF"><strong>文件名</strong></font></td>
-    <td Width="13%" align="center"><font color="#FFFFFF"><strong>文件大小</strong></font></td>
-    <td Width="23%" align="center"><font color="#FFFFFF"><strong>上传日期</strong></font></td>
-    <td Width="7%" align="center"><font color="#FFFFFF"><strong>操作</strong></font></td>
+    <td Width="35%" align="center"><font color="#FFFFFF"><strong>文件名</strong></font></td>
+    <td Width="10%" align="center"><font color="#FFFFFF"><strong>文件大小</strong></font></td>
+    <td Width="25%" align="center"><font color="#FFFFFF"><strong>上传日期</strong></font></td>
+    <td Width="10%"  align="center"><font color="#FFFFFF"><strong>操作</strong></font></td>
   </tr>
 <%
 	On Error Resume Next
@@ -232,7 +233,7 @@ End Function
      <td >
 	<p align="center">
 	<%		address = request.ServerVariables("HTTP_REFERER")%>
-			<input type="button" name="submitSaveEdit3" value="返回上一页" class="button" onclick="javascript:window.location.href='<%=address%>';" style="WIDTH: 84; float:center; height:18"> 
+			<input type="button" name="submitSaveEdit3" value="返回上一页" class="button" onclick="javascript:window.location.href='<%=address%>';"  style="WIDTH: 84; float:center; height:18">
          </td>
         </tr>
 
